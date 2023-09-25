@@ -1,0 +1,49 @@
+/* Estilo do contêiner do carrossel */
+.swiper-container {
+    width: 100%; /* Largura do contêiner */
+    margin: 0 auto; /* Centralizar horizontalmente */
+  }
+ 
+  /* Estilo dos slides */
+  .swiper-slide {
+    text-align: center;
+  }
+ 
+  /* Estilo da imagem dentro dos slides */
+  .swiper-slide img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o slide */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+ 
+  /* Estilo da paginação (pontos de navegação) */
+  .swiper-pagination {
+    margin-top: 10px; /* Espaçamento superior */
+  }
+ 
+  /* Estilo dos botões de navegação (próximo e anterior) */
+  .swiper-button-next,
+  .swiper-button-prev {
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    border-radius: 50%; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de apontador */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  }
+ 
+  /* Estilo dos botões de navegação ao passar o mouse */
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: #555; /* Cor de fundo alterada */
+  }
+ 
+  /* Estilo da seta direita (próximo) */
+  .swiper-button-next::after {
+    content: '►'; /* Seta direita */
+  }
+ 
+  /* Estilo da seta esquerda (anterior) */
+  .swiper-button-prev::after {
+    content: '◄'; /* Seta esquerda */
+}  
